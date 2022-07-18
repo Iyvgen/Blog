@@ -255,6 +255,10 @@
     max-width: 100%;
   }
 }
+.logo {
+  text-align: left;
+}
+
 /*  only  mobile < 767px */
 @media (max-width: 767px) {
   .hidden-xs {
@@ -265,6 +269,10 @@
   background-color: #1d2126;
   color: #a4aead;
   height: 80px;
+}
+
+.logo {
+  text-align: center;
 }
 
 .menu {
@@ -342,7 +350,7 @@ a {
   background-color: #a4aead;
 }
 
-.wellcome {
+.welcome {
   height: 660px;
   color: #a4aead;
   background-image: url(images/main_1.png);
