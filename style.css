@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Quattrocento+Sans:wght@400;700&family=Raleway:wght@100&family=Roboto:wght@700&display=swap");
 /*mobile*/
 * {
   box-sizing: border-box;
@@ -86,6 +86,9 @@
 
 /* Tablet => sm 768px*/
 @media (min-width: 768px) {
+  .hidden-xs {
+    display: none;
+  }
   .container {
     min-width: 720px;
   }
@@ -192,6 +195,11 @@
     max-width: 100%;
   }
 }
+.hidden-xs {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /*  desktop  => lg */
 @media (min-width: 1200px) {
   .container {
@@ -264,6 +272,7 @@
   color: #a4aead;
   font-size: 14px;
   text-decoration: none;
+  align-items: center;
 }
 
 li :hover {
@@ -281,13 +290,8 @@ a {
   font-size: 14px;
 }
 
-.hidden-xs {
-  display: flex;
-  justify-content: space-around;
-}
-
 .header-form-search {
-  margin: -5px;
+  margin-left: -10px;
   display: flex;
   align-items: flex-start;
 }
@@ -298,6 +302,7 @@ a {
   background-repeat: no-repeat;
   background-size: 50px;
   background-position: 50%;
+  margin-left: 10px;
   padding: 5px;
   width: 20px;
   height: 20px;
@@ -329,4 +334,36 @@ a {
   color: #a4aead;
   padding: 0;
   margin: 0;
+}
+
+.wellcome {
+  height: 660px;
+  color: #a4aead;
+  background-image: url(images/main_1.png);
+  background-repeat: no-repeat;
+}
+
+h2 {
+  padding-top: 220px;
+  font-size: 36px;
+}
+
+p {
+  padding-top: 40px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #37394b;
+  color: #a4aead;
+  font-size: 16px;
+  width: 120px;
+  height: 40px;
+  border: #a4aead 2px solid;
+  border-radius: 3px;
+}
+button:hover {
+  background-color: #23b7a4;
+  border: #23b7a4 2px solid;
 }/*# sourceMappingURL=style.css.map */
