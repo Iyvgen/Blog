@@ -207,18 +207,32 @@
   .text {
     width: 300px;
   }
+  .lovely-work {
+    background-color: #3a454d;
+    height: 900px;
+    border-bottom: 1px solid #a4aead;
+    padding-top: 85px;
+    color: #c8cdd0;
+    width: 1170px;
+  }
+  .pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 65px;
+    padding-left: 0px;
+  }
+  .l-work {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
 }
 .hidden-xs {
   display: flex;
   justify-content: flex-end;
-}
-
-.l-work {
-  display: flex;
-  flex-direction: column;
-  width: 260px;
-  height: 300px;
-  margin-bottom: 20px;
 }
 
 /*  desktop  => lg */
